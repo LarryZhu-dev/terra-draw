@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/JamesLMilner/terra-draw/compare/v0.0.2...v0.0.4) (2024-03-14)
+
+
+### Features
+
+* 新增中间点拖动可配置选项 ([e20e9e7](https://github.com/JamesLMilner/terra-draw/commit/e20e9e782aca51af2d87783bc511f13ef0164a65))
+
+
+### Bug Fixes
+
+* 无需点击中间点即可拖动 ([19766ff](https://github.com/JamesLMilner/terra-draw/commit/19766ff78902e179aebc483ab0cbce70ae4e72d5))
+* 修复大点拖动报错的问题 ([4262cb0](https://github.com/JamesLMilner/terra-draw/commit/4262cb0b384e58cdf20c8361b96b778188e9b0a4))
+
+### [0.0.3](https://github.com/JamesLMilner/terra-draw/compare/v0.0.2...v0.0.3) (2024-03-14)
+
+
+### Features
+
+* 新增中间点拖动可配置选项 ([e20e9e7](https://github.com/JamesLMilner/terra-draw/commit/e20e9e782aca51af2d87783bc511f13ef0164a65))
+
+
+### Bug Fixes
+
+* 无需点击中间点即可拖动 ([19766ff](https://github.com/JamesLMilner/terra-draw/commit/19766ff78902e179aebc483ab0cbce70ae4e72d5))
+* 修复大点拖动报错的问题 ([4262cb0](https://github.com/JamesLMilner/terra-draw/commit/4262cb0b384e58cdf20c8361b96b778188e9b0a4))
+
 ### [0.0.2](https://github.com/JamesLMilner/terra-draw/compare/v0.0.1...v0.0.2) (2024-03-07)
 
 ### 0.0.1 (2024-03-07)
