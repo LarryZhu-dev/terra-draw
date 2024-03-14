@@ -193,6 +193,13 @@ export abstract class TerraDrawBaseDrawMode<T extends CustomStyling> {
 		defaultValue: T,
 		feature: GeoJSONStoreFeatures,
 	) {
+		const visible4Index = [0, 16, 32, 48];
+		if (
+			feature.properties.type == "circle" &&
+			!visible4Index.includes(feature.properties.index as number)
+		) {
+			return 0 as T;
+		}
 		if (value === undefined) {
 			return defaultValue;
 		} else if (typeof value === "function") {

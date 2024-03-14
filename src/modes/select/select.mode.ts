@@ -445,7 +445,6 @@ export class TerraDrawSelectMode extends TerraDrawBaseSelectMode<SelectionStylin
 			}
 		}
 	}
-
 	private onLeftClick(event: TerraDrawMouseEvent) {
 		const { clickedFeature, clickedMidPoint } = this.featuresAtMouseEvent.find(
 			event,

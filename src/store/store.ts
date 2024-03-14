@@ -244,6 +244,7 @@ export class GeoJSONStore<Id extends FeatureId = FeatureId> {
 			properties?: JSONObject;
 		}[],
 	): Id[] {
+		console.log("features::: ", features);
 		const ids: FeatureId[] = [];
 		features.forEach(({ geometry, properties }) => {
 			let createdAt;

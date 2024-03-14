@@ -25,6 +25,7 @@ export class SelectionPointBehavior extends TerraDrawModeBehavior {
 			getCoordinatesAsPoints(selectedCoords, type, (i) => ({
 				mode: this.mode,
 				selectionPoint: true,
+				type: selectedCoords.length == 65 ? "circle" : "other",
 				selectionPointFeatureId: featureId,
 				index: i,
 			})),
